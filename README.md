@@ -8,4 +8,8 @@ This analysis uses anonymized review data from Amazon for a particular product c
  - The number of 5-star Vine reviews were 48, compared to 15663 non-Vine reviews
  - The percentage of 5-star Vine reviews is 51.1%, compared to 38.7% of non-Vine reviews
 
+See the image below for the python calculations
+![Vine_Review_Analysis](vine_analysis.png)
+
 # Summary
+The Vine program clearly produces positivity bias in the reviews (51% vs 39% 5-star rating), though the sheer amount of non-Vine reviews may negate their effect. Further analysis should consider the percentage of Vine reviews for each product (as opposed to the entire product class used here) and look to see if a significant positive skew resulted.
